@@ -3,7 +3,7 @@ import yaml
 import torch
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-from models.alexnet import AlexNet
+from src.models.alexnet import AlexNet
 
 
 def main(config_path, model_path):
