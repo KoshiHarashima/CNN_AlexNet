@@ -24,7 +24,7 @@ CNNのAlexNetをscratchから構築をする練習コード
 ```bash
 # リポジトリをクローン
 git clone https://github.com/KoshiHarashima/CNN_AlexNet.git
-cd alexnet-pytorch
+cd CNN_AlexNet
 
 # 仮想環境作成（推奨）
 python -m venv venv
@@ -108,7 +108,7 @@ python src/scripts/eval.py \
 
 ---
 
-## ✅ テスト実行
+##  テスト実行
 
 ```bash
 pytest tests/
@@ -116,7 +116,7 @@ pytest tests/
 
 ---
 
-## 🤝 貢献・ライセンス
+## 貢献
 
 * Pull Request、大歓迎です。
 
