@@ -18,7 +18,7 @@ class Trainer:
         self.device = device
         self.early_stopping = EarlyStopping(patience=patience)
         self.scheduler = ReduceLROnPlateau(
-            self.optimizer, mode='min', patience=3, factor=0.5, min_lr=1e-6, verbose=True
+            self.optimizer, mode='min', patience=3, factor=0.5, min_lr=1e-6
         )
         self.train_losses = []
         self.val_losses = []
