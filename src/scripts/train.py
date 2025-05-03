@@ -4,8 +4,8 @@ import torch
 from torch import nn, optim
 from torch.utils.data import DataLoader, random_split
 from torchvision import datasets, transforms
-from models.alexnet import AlexNet
-from trainers.trainer import Trainer
+from src.models.alexnet import AlexNet
+from src.trainers.trainer import Trainer
 
 def main(config_path):
     with open(config_path) as f:
