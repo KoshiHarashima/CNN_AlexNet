@@ -53,8 +53,6 @@ alexnet-pytorch/
 │   ├── trainers/            # 学習・評価ロジック (trainer.py)
 │   ├── utils/               # ユーティリティ (early_stopping.py, visualize.py)
 │   └── scripts/             # 実行用スクリプト (train.py, eval.py)
-├── notebooks/               # Jupyter Notebook 実験用
-│   └── train_experiments.ipynb
 └── tests/                   # 単体テスト (test_*.py)
 ```
 
