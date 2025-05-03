@@ -23,7 +23,7 @@ CNNのAlexNetをscratchから構築をする練習コード
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/<ユーザー名>/alexnet-pytorch.git
+git clone https://github.com/KoshiHarashima/CNN_AlexNet.git
 cd alexnet-pytorch
 
 # 仮想環境作成（推奨）
