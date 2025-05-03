@@ -17,7 +17,7 @@ def main(root: str = './data'):
     datasets.CIFAR10(root=root, train=True, download=True, transform=transform)
     datasets.CIFAR10(root=root, train=False, download=True, transform=transform)
 
-    print("CIFAR-10 データセットをダウンロード・保存しました。")
+    print("CIFAR-10 データセットをダウンロードした。")
 
 
 if __name__ == '__main__':
