@@ -1,0 +1,9 @@
+model:
+  num_classes: 10
+  dropout: 0.5
+training:
+  batch_size: 64
+  epochs: 50
+  lr: 0.01
+  momentum: 0.9
+  patience: 7
