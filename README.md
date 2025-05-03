@@ -1,0 +1,2 @@
+# CNN_AlexNet
+CNNのAlexNetをscratchから構築をする練習コード
