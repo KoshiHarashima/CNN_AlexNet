@@ -95,7 +95,9 @@ python data/download_cifar10.py
 ```bash
 python src/scripts/train.py \
   --config configs/default.yaml \
-  --device cuda  # または cpu
+
+colabの場合は、Pathを明示しないと動きません。
+!PYTHONPATH=/content/CNN_AlexNet python src/scripts/train.py --config configs/default.yaml --device cuda
 ```
 
 ### 評価
