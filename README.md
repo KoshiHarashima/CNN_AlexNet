@@ -1,5 +1,6 @@
 # CNN_AlexNet
 CNNのAlexNetをscratchから構築をする練習コード
+* models_rとmodels_eはそれぞれResNetとEfficientNetの実装に用いたものです。
 
 ````markdown
 # AlexNet PyTorch 実装リポジトリ
